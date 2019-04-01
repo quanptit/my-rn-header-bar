@@ -1,0 +1,21 @@
+{
+  "name": "my-rn-header-bar",
+  "version": "1.0.0",
+  "description": "my libs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ads"
+  ],
+  "author": "Quan Trinh Van",
+  "license": "Quan Trinh Van",
+  "nativePackage": true,
+  "dependencies": {
+    "react-native-status-bar-height": "^2.1.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {}
+}
