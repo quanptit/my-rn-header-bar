@@ -65,7 +65,6 @@ export class HeaderBar extends PureComponentSkipFunction<Props, { orientation: O
         return !isEqual(this.props.hideStatusBar, nextProps.hideStatusBar) ||
             !isEqual(this.props.title, nextProps.title) || !isEqual(this.props.id, nextProps.id)
             || !isEqual(this.state, nextState) || !isEqual(this.props.hideStatusBarWhenLanscape, nextProps.hideStatusBarWhenLanscape)
-            ;
     }
 
     //endregion
