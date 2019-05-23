@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
         height: Constants.toolbarHeightLanscapeNoStatus
     },
     headerBarContainer: {
-        paddingRight: 8,
+        paddingRight: 3,
         paddingTop: Constants.paddingTopHeader,
     },
     shadow: Platform.select({
