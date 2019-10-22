@@ -1,6 +1,6 @@
 {
   "name": "my-rn-header-bar",
-  "version": "1.0.0",
+  "version": "1.0.0-1",
   "description": "my libs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,5 +22,8 @@
   "nativePackage": false,
   "dependencies": {
     "react-native-status-bar-height": "^2.1.0"
+  },
+  "peerDependencies": {
+    "react-native-orientation": "https://gitlab.com/ReactNativeLib/react-native-orientation.git"
   }
 }
